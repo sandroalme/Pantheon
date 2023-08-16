@@ -25,6 +25,12 @@ nav {
     gap: 15px;
 }
 
+.secao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 h1 {
     font-weight: 600;
     font-size: 35px;
@@ -37,6 +43,14 @@ h2 {
     padding: 20px;
 }
 
+.botao-secao1 {
+    padding: 20px;
+}
+
+.mockup {
+    height: 350px;
+}
+
 .footer-section-redes {
     display: flex;
     justify-content: center;
@@ -45,4 +59,12 @@ h2 {
 
 .footer-redes {
     height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .secao1 {
+        flex-direction: column;
+    }
+    
 }
