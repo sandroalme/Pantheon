@@ -29,15 +29,16 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0px 50px;
 }
 
-h1 {
+.h1s1 {
     font-weight: 600;
     font-size: 35px;
     padding: 20px;
 }
 
-h2 {
+.h2s1 {
     font-weight: 300;
     font-size: 20px;
     padding: 20px;
@@ -45,10 +46,41 @@ h2 {
 
 .botao-secao1 {
     padding: 20px;
+    margin: 20px;
+    background-color: rgb(64, 128, 224);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.552);
 }
 
 .mockup {
-    height: 350px;
+    width: 350px;
+}
+
+.secao2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.logos2 {
+    width: 250px;
+    height: 250px;
+}
+
+.h2s2 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.ps2 {
+    width: 500px;
+    padding: 20px;
 }
 
 .footer-section-redes {
@@ -63,8 +95,23 @@ h2 {
 
 @media screen and (max-width: 768px) {
 
+    header {
+        justify-content: space-between;
+    }
+
     .secao1 {
         flex-direction: column;
+        margin: 0px;
+    }
+
+    .divmockup {
+        display: flex;
+        justify-content: center;
+    }
+
+    .secao2 {
+        flex-direction: column;
+        margin: 0px;
     }
     
 }
